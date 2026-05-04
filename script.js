@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
       iframe.loading = 'lazy';
       iframe.referrerPolicy = 'no-referrer-when-downgrade';
       iframe.allowFullscreen = true;
-      iframe.title = 'Google Maps: Bosporus Grillhaus, Allersberger Straße 48, Nürnberg';
+      iframe.title = 'Google Maps: ' + CLIENT.name + ', ' + CLIENT.street + ', ' + CLIENT.city;
       mapsPlaceholder.replaceChildren(iframe);
     });
   }

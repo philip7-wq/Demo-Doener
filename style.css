@@ -48,7 +48,8 @@
   --color-bg-dark:      #1a1c1c;
   --color-text:         #1a1c1c;
   --color-text-muted:   #5b403d;
-  --color-accent-red:   #d32f2f;
+  --color-primary:      #d32f2f;           /* von client-init.js überschreibbar */
+  --color-accent-red:   var(--color-primary); /* Alias — bestehende Verwendungen bleiben unverändert */
   --color-accent-red-h: #c62828;
   --color-accent-yellow:#fdc003;
   --color-border:       #e4beba;
